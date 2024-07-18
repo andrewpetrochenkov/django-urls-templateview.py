@@ -8,10 +8,19 @@ $ pip install django-urls-templateview
 INSTALLED_APPS+=['django_urls_templateview']
 ```
 
+#### `migrate`
+```bash
+$ python manage.py migrate
+```
+
+### Features
++   `urls.py` TemplateView `urlpatterns`
++   admin
+
 ### Models
 model|table|columns/fields
 -|-|-
-`Map`|`django_urls_templateview`|id,url,template_name
+`Map`|`django_urls_templateview`|`id`,`url`,`template_name`
 
 ### Examples
 `urls.py`
