@@ -19,5 +19,3 @@ class UrlsTemplateView(models.Model):
                 "template_name",
             )
         ]
-        verbose_name = "Map"
-        verbose_name_plural = "Map"
